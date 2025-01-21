@@ -1,4 +1,4 @@
-# Matrix Multiplication Library with Benchmarking from Scratch in C
+# Matrix Multiplication Library from Scratch in C with Benchmarking
 
 A C implementation of matrix multiplication optimized for cache efficiency and parallel processing. This library incorporates different approaches to matrix multiplication, from standard implementation to cache-optimized blocked multiplication.
 
