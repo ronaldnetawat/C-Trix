@@ -237,7 +237,7 @@ Matrix* matrix_multiply_parallel(const Matrix* a, const Matrix* b, int num_threa
         return NULL;
     }
 
-    /* Divide work among threads */
+    /*divide work among threads */
     size_t rows_per_thread = a->rows / num_threads;
     size_t extra_rows = a->rows % num_threads;
     size_t current_row = 0;
